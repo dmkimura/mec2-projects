@@ -2,11 +2,13 @@
 
 ## Dataset Background Information
 
-The *image.tar* and *annotation.tar* files were downloaded from the **Standford Dogs Dataset** located at [vision.stanford.edu/aditya86/ImageNetDogs/](http://vision.stanford.edu/aditya86/ImageNetDogs/). This dataset is relevant to my project because I am designing a model to track the moving of dogs. Although I will be using a pre-trained model for this problem, the pre-trained model was designed to classify among 80 different objects. These images will be used to train the model on the specific task of identifying and tracking dogs.
+The *image.tar* and *annotation.tar* files were downloaded from the **Standford Dogs Dataset** located at [vision.stanford.edu/aditya86/ImageNetDogs/](http://vision.stanford.edu/aditya86/ImageNetDogs/).
 
 The *image.tar* file contains 20,580 images of dogs across 120 different dog breeds. 
 
 The *annotation.tar* file provides both the labeled breed of the dog as well as its bounding box.
+
+This dataset is relevant to my project because I am designing a model to track the movement of dogs. Although I will be using a pre-trained model for this problem, the pre-trained model was designed to detect 80 different classes of objects. By conducting transfer learning with this dataset, the model will learn the specific task of identifying and tracking dogs.
 
 ## Choosing a Dataset
 
